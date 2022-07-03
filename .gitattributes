@@ -1,0 +1,8 @@
+***.exe filter=lfs diff=lfs merge=lfs -text
+C:/workspace/workspace-unity/Palm_pet/PalmPet/.git/objects/pack/pack-b5394776259b4cf2c1043fbff124e7f3ef0b7d6c.pack filter=lfs diff=lfs merge=lfs -text
+libil2cpp.sys.so filter=lfs diff=lfs merge=lfs -text
+libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+Android filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.sys.so filter=lfs diff=lfs merge=lfs -text
+*.dbg.so filter=lfs diff=lfs merge=lfs -text
