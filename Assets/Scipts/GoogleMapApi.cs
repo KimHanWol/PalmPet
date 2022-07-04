@@ -41,7 +41,7 @@ public class GoogleMapApi : MonoBehaviour {
 		url = "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + lon +
 			"&zoom=" + zoom + "&size=" + mapWidth + "x" + mapHeight + "&scale=" + scale
 			+ "&maptype=" + mapSelected +
-			"&markers=color:markers=color:red%7C" + lat + ","+ lon + "&key=AIzaSyBfAY9s8VukL8ehfnUmu6V-rwg_wPjknps";
+			"&markers=color:markers=color:red%7C" + lat + ","+ lon + "&key=google_map_api_key";
 		WWW www = new WWW(url);
 		yield return www;
 		MapObject.texture = www.texture;
